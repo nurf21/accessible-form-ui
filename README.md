@@ -65,7 +65,7 @@ This UI can be extended with JavaScript to add functionality:
 ## Project Resources
 
 This project is part of the Frontend Developer Roadmap:  
-[Visit Project](https://roadmap.sh/projects/datepicker-ui)
+[Visit Project](https://roadmap.sh/projects/accessible-form-ui)
 
 ## License
 
