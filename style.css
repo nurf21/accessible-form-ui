@@ -73,17 +73,17 @@ input {
 }
 
 input:focus {
-  border-color: #3498db;
+  border-color: #217dbb;
   box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
 }
 
 .error-input {
-  border-color: #e74c3c;
+  border-color: #c0392b;
   box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
 }
 
 .error {
-  color: #e74c3c;
+  color: #c0392b;
   font-size: 14px;
   margin-top: 6px;
   display: flex;
@@ -110,12 +110,12 @@ input:focus {
 }
 
 .password-toggle:focus {
-  outline: 2px solid #3498db;
+  outline: 2px solid #217dbb;
   border-radius: 4px;
 }
 
 .btn {
-  background: linear-gradient(to right, #3498db, #2c3e50);
+  background: linear-gradient(to right, #217dbb, #2c3e50);
   color: white;
   border: none;
   padding: 15px 25px;
@@ -156,7 +156,7 @@ input:focus {
 
 .progress-value {
   font-weight: 700;
-  color: #3498db;
+  color: #217dbb;
   font-size: 18px;
 }
 
@@ -171,7 +171,7 @@ input:focus {
 .progress-fill {
   height: 100%;
   width: 20%;
-  background: linear-gradient(to right, #3498db, #2c3e50);
+  background: linear-gradient(to right, #217dbb, #2c3e50);
   border-radius: 6px;
 }
 
@@ -204,12 +204,12 @@ input:focus {
   position: absolute;
   top: 0.3em;
   left: 10px;
-  color: #3498db;
+  color: #217dbb;
   font-size: 20px;
 }
 
 .completeness-list li.completed {
-  color: #27ae60;
+  color: #1e8449;
 }
 
 .completeness-list li.completed::before {
