@@ -73,7 +73,7 @@ input {
 }
 
 input:focus {
-  border-color: #217dbb;
+  border-color: #1e6fa8;
   box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
 }
 
@@ -110,12 +110,12 @@ input:focus {
 }
 
 .password-toggle:focus {
-  outline: 2px solid #217dbb;
+  outline: 2px solid #1e6fa8;
   border-radius: 4px;
 }
 
 .btn {
-  background: linear-gradient(to right, #217dbb, #2c3e50);
+  background: linear-gradient(to right, #1e6fa8, #2c3e50);
   color: white;
   border: none;
   padding: 15px 25px;
@@ -149,14 +149,14 @@ input:focus {
   margin-bottom: 15px;
 }
 
-.progress-header h3 {
+.progress-header h2 {
   color: #2c3e50;
   font-size: 18px;
 }
 
 .progress-value {
   font-weight: 700;
-  color: #217dbb;
+  color: #1e6fa8;
   font-size: 18px;
 }
 
@@ -171,7 +171,7 @@ input:focus {
 .progress-fill {
   height: 100%;
   width: 20%;
-  background: linear-gradient(to right, #217dbb, #2c3e50);
+  background: linear-gradient(to right, #1e6fa8, #2c3e50);
   border-radius: 6px;
 }
 
@@ -204,7 +204,7 @@ input:focus {
   position: absolute;
   top: 0.3em;
   left: 10px;
-  color: #217dbb;
+  color: #1e6fa8;
   font-size: 20px;
 }
 
