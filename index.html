@@ -29,7 +29,7 @@
         <div class="form-group">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" aria-required="true" aria-invalid="true"
-            aria-describedby="email-error" value="john@doe.com" class="error-input">
+            aria-describedby="email-error" value="john@doe.com" class="error-input" autocomplete="username">
           <div id="email-error" class="error" role="alert">
             <span class="error-icon">!</span> Email is already taken
           </div>
@@ -38,7 +38,7 @@
         <div class="form-group">
           <label for="password">Enter Password</label>
           <div class="input-wrapper">
-            <input type="password" id="password" name="password" aria-required="true" placeholder="Create a password">
+            <input type="password" id="password" name="password" aria-required="true" placeholder="Create a password" autocomplete="new-password">
             <button type="button" class="password-toggle" aria-label="Show password" aria-pressed="false">
               <i class="fa-solid fa-eye"></i>
             </button>
@@ -49,7 +49,7 @@
           <label for="confirm-password">Confirm Password</label>
           <div class="input-wrapper">
             <input type="password" id="confirm-password" name="confirm-password" aria-required="true"
-              placeholder="Confirm your password">
+              placeholder="Confirm your password" autocomplete="new-password">
             <button type="button" class="password-toggle" aria-label="Show password" aria-pressed="false">
               <i class="fa-solid fa-eye"></i>
             </button>
